@@ -1,0 +1,21 @@
+Package: montyhall
+Title: Monty Hall Game Simulations
+Version: 0.0.0.9000
+Authors@R: 
+    person("Paul", "Morrison", , "pamorrison@asu.edu", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: The functions in this package allow the user to run simulations
+    of the Monty Hall game. In the game, there are three doors, behind one
+    of which is a car, and the other two are goats. The user randomly selects
+    a door to start. Then, one of the doors with a goat is revealed, leaving
+    two remaining unopened doors. The user can then stay with their initial
+    door choice or change to the other unopened door. Based on this choice, it
+    is then revealed if the user won or lost. There is an additional function
+    that allows the user to simulate the game any number of times to determine
+    the best strategy for the game.
+Depends:
+    dplyr
+License: `use_mit_license()`
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
